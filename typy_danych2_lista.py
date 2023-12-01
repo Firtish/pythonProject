@@ -83,3 +83,27 @@ print(lista_osoby)  # ['zenek', 'radek', 'ola']
 
 lista_osoby.reverse()
 print(lista_osoby)  # ['ola', 'radek', 'zenek']
+
+# liczby[6] = 6666  # IndexError: list assignment index out of range
+liczby[3] = 6666
+print(liczby)
+
+liczby.pop(3)
+liczby.remove(34)
+
+tekst = 'Python'
+lista1 = [tekst]
+print(lista1)  # ['Python']
+
+# rozpakowanie sekwencji
+lista2 = list(tekst)
+print(lista2)  # ['P', 'y', 't', 'h', 'o', 'n']
+
+tekst2 = "Radek Radek"
+lista3 = list(tekst2)
+print(lista3)  # ['R', 'a', 'd', 'e', 'k', ' ', 'R', 'a', 'd', 'e', 'k']
+lista4 = list(lista1)
+print(lista3)
+krotka = tuple(lista4)
+print(krotka)
+print(type(krotka))  # <class 'tuple'>
