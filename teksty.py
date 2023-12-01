@@ -18,3 +18,4 @@ encoded_s = tekst.encode('utf-8')
 print(encoded_s)  # "b'Witaj \xc5\x9bwiecie'"
 print(type(encoded_s))  # "<class 'bytes'>"
 # \x - dane w systemie szesnastkowym
+
