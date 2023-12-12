@@ -17,17 +17,16 @@ class User(Base):
 
 Base.metadata.create_all(engine)
 user1 = User(name="John", age=25)
-# session.add(user1)
-# session.commit()
+session.add(user1)
+session.commit()
 
 users = session.query(User).all()
 for user in users:
     print(user)
-    print(user.id, user.name, user.age)
+    print(user.name, user.age)
 
 user1.age = 45
 session.commit()
-
 users = session.query(User).all()
 for user in users:
     print(user)
