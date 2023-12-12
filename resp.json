@@ -1,0 +1,66 @@
+{
+  'results': [
+    {
+      'gender': 'male',
+      'name': {
+        'title': 'Mr',
+        'first': 'Gerald',
+        'last': 'Ellis'
+      },
+      'location': {
+        'street': {
+          'number': 8049,
+          'name': 'Avondale Ave'
+        },
+        'city': 'Cairns',
+        'state': 'Queensland',
+        'country': 'Australia',
+        'postcode': 7019,
+        'coordinates': {
+          'latitude': '-82.8681',
+          'longitude': '-107.9265'
+        },
+        'timezone': {
+          'offset': '-11:00',
+          'description': 'Midway Island, Samoa'
+        }
+      },
+      'email': 'gerald.ellis@example.com',
+      'login': {
+        'uuid': '630c0476-8b6c-4e4c-8084-96187f6d0466',
+        'username': 'lazyelephant617',
+        'password': '8888',
+        'salt': 'HSAX6sYI',
+        'md5': '47ad4c89226a570afa6d47f8efab7865',
+        'sha1': '7f9f14ef995b4ab4d313b6ed6aae7ca985a84c7c',
+        'sha256': 'fd7dd7de72f7373ff7b0a2b5aa5c9c52c3872fb7cbfecce8416e83c5084e0c65'
+      },
+      'dob': {
+        'date': '1966-05-10T13:32:09.899Z',
+        'age': 57
+      },
+      'registered': {
+        'date': '2003-11-01T17:31:52.618Z',
+        'age': 20
+      },
+      'phone': '04-9380-2449',
+      'cell': '0448-449-934',
+      'id': {
+        'name': 'TFN',
+        'value': '904371765'
+      },
+      'picture': {
+        'large': 'https://randomuser.me/api/portraits/men/50.jpg',
+        'medium': 'https://randomuser.me/api/portraits/med/men/50.jpg',
+        'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/50.jpg'
+      },
+      'nat': 'AU'
+    }
+  ],
+  'info': {
+    'seed': '29f9ea915285f250',
+    'results': 1,
+    'page': 1,
+    'version': '1.4'
+  }
+}
